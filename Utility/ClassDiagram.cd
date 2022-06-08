@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Renderer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Renderer::__unnamed_struct_01c3_1">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\Renderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Renderer::UniformBufferObjectViewProjection">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\Renderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>uYZ8FFAADIMAA1QoZgBEcCEKFSQAMQAICAJRJcyFRBA=</HashCode>
+      <FileName>VulkanPrototype\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBiAAAYGAGAAEARAAAQAAAAAAABAAAAARCAAAAAEIA=</HashCode>
+      <FileName>VulkanPrototype\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshModel">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAACADBACAAAAAAAAAAAAACAhAAAAAAACAAAAA=</HashCode>
+      <FileName>VulkanPrototype\MeshModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Event">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAABAgAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventDispatcher">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyEvent">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAACAAAA=</HashCode>
+      <FileName>VulkanPrototype\KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyPressedEvent">
+    <Position X="6.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyReleasedEvent">
+    <Position X="4" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\KeyEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseEvent">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseButtonEvent">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MousePressedEvent">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseReleasedEvent">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseMoveEvent">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseScrollEvent">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>VulkanPrototype\MouseEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateEvent">
+    <Position X="3.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\UpdateEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateNoramlEvent">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\UpdateEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateFixedFramesEvent">
+    <Position X="2.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>VulkanPrototype\UpdateEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowEvent">
+    <Position X="13" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowResizeEvent">
+    <Position X="12" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABEEgAAAAAAAI=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowOpenEvent">
+    <Position X="16.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAEAQAAAAAABAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowCloseEvent">
+    <Position X="7.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAIAAAAQAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowMoveEvent">
+    <Position X="14.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowFocusEvent">
+    <Position X="18.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowLostFocusEvent">
+    <Position X="9.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAECQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\WindowEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewProjection">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ViewProjection::Eye" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\ViewProjection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ViewProjection::Centre" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\ViewProjection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ViewProjection::Up" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\ViewProjection.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAEQAAAACAABAAAAABgAgAICAAQABAQABE=</HashCode>
+      <FileName>VulkanPrototype\ViewProjection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>VulkanPrototype\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Log::WarningLevel">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\Log.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="Log::outputFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>VulkanPrototype\Log.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAACAAAAgAAkAAIAAAAAkAAoAAAA=</HashCode>
+      <FileName>VulkanPrototype\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringFormat">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\StringFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Colour">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAIAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\Colour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manipulation">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAwAAAAAAAAAAAAAAAAEAAAAAQAAAAA=</HashCode>
+      <FileName>VulkanPrototype\Manipulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Model">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VulkanPrototype\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="EventType">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACBAQAAAJAAACQAAAAAABAAIAEFABAAABAAAg=</HashCode>
+      <FileName>VulkanPrototype\Event.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EventCategory">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAACACAQAAAAAIE=</HashCode>
+      <FileName>VulkanPrototype\Event.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
